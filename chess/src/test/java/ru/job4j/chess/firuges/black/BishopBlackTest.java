@@ -17,7 +17,7 @@ public class BishopBlackTest {
     @Test
     public void testCopy() {
         BishopBlack bishopBlack = new BishopBlack(Cell.A1);
-        assertThat(bishopBlack.copy(Cell.A2).position(), is(Cell.A1));
+        assertThat(bishopBlack.copy(Cell.A1).position(), is(Cell.A1));
     }
 
     @Test
